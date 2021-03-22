@@ -1,0 +1,9 @@
+This code is made to do multiple things. 
+
+The first part of this code is for the user to input two numbers of their choice
+and the code will output results of those numbers when theyre both added and 
+subtracted from eachother.
+
+The second part of this code is for the user to input a large number of their choice
+and the code will output that same number but formatted so that theres commas between 
+every third number.
