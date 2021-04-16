@@ -1,9 +1,22 @@
-This code is made to do multiple things. 
+Num == [0..9]
 
-The first part of this code is for the user to input two numbers of their choice
-and the code will output results of those numbers when theyre both added and 
-subtracted from eachother.
+add: Num, Num -> Num
 
-The second part of this code is for the user to input a large number of their choice
-and the code will output that same number but formatted so that theres commas between 
-every third number.
+\forall n1: Num, n2: Num
+
+add (n1, n2) = n1 + n2
+
+
+subtraction: Num, Num -> Num
+
+\forall n1: Num, n2: Num
+
+subtraction (n1, n2) = n1 - n2 
+
+
+format: Num 
+
+\forall n1: Num
+
+format (n1) = seq n1
+
