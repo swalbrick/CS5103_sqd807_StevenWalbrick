@@ -1,0 +1,12 @@
+Design Change Report:
+
+The new requirment change was to allow the large numbers to have a decimal point. 
+One number can have at most one decimal point. When adding / subtracting / comparing numbers, 
+you need to align the numbers at the decimal point and add additional zeros at the end 
+to align the part after the decimal point.
+
+I changed my variables ('first', 'second', 'third', 'add', and 'subtract') from int to double
+since we are now using decimals in my numbers. 
+
+I also added String.format and "%8.3f" to the users input numbers so that the output shows the number
+aligned by decimal point and adds any zeros for any empty spaces. 
